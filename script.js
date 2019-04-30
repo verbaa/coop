@@ -1,3 +1,10 @@
+navigator.getUserMedia(
+  {video:true}, // тип запрашиваемого стрима (может быть audio) 
+  function(stream) {/*callback в случае удачи*/},
+  function(){/*callback в случае отказа*/})
+
+var url = window.URL.createObjectURL(stream);
+
 window.onload = function () {
     var canvas = document.getElementById('canvas');
     var video = document.getElementById('video');
