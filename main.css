@@ -1,0 +1,28 @@
+.content {
+    margin: 20px;
+}
+
+.red {
+    background-color: #af1212;
+    color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 0;
+}
+
+.blue {
+    background-color: #3745af;
+    color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 0;
+}
+
+.green {
+    background-color: #00af00;
+    color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 0;
+}
+
+.the-image {
+
+}
